@@ -16,11 +16,11 @@ While completing this exercise, pay attention to the algorithm or process you us
 
 ---
 # Mathematical Review: Base 10
-### Due Date: 
+### Due Date: Sept. 6
 ### Directions: See the README.md file.
 ---
-### Name:                                <!-- response -->
-### GitHub Account:                      <!-- response -->
+### Name: Jacob Booth                         <!-- response -->
+### GitHub Account: jjakeyb                     <!-- response -->
 
 #### Section 1: Addition of Whole Numbers
    1. Perform the following additions.
@@ -28,38 +28,38 @@ While completing this exercise, pay attention to the algorithm or process you us
 
    * 13 + 5
    ```
-         xxx0              <!-- response -->
-         xxxx              <!-- response -->
-       + xxxx              <!-- response -->
+         0000              <!-- response -->
+         0013              <!-- response -->
+       + 0005              <!-- response -->
        ------
-         xxxx              <!-- response -->
+         0018              <!-- response -->
    ```
  
    * 13 + 8
    ```
-         xxx0              <!-- response -->
-         xxxx              <!-- response -->
-       + xxxx              <!-- response -->
+         0010              <!-- response -->
+         0013              <!-- response -->
+       + 0008              <!-- response -->
        ------
-         xxxx              <!-- response -->
+         0021              <!-- response -->
    ```
  
    * 1345 + 655
    ```
-         xxx0              <!-- response -->
-         xxxx              <!-- response -->
-       + xxxx              <!-- response -->
+         1110              <!-- response -->
+         1345              <!-- response -->
+       + 0655              <!-- response -->
        ------
-         xxxx              <!-- response -->
+         2000              <!-- response -->
    ```
  
    * 5676 + 4334
    ```
-         xxx0              <!-- response -->
-         xxxx              <!-- response -->
-       + xxxx              <!-- response -->
+         1110              <!-- response -->
+         1345              <!-- response -->
+       + 0655              <!-- response -->
        ------
-         xxxx              <!-- response -->
+         2000              <!-- response -->
    ```
  
 #### Section 2: Addition of Fix Point Numbers
@@ -68,38 +68,38 @@ While completing this exercise, pay attention to the algorithm or process you us
 
    * 13.5 + 5.0
    ```
-        xxxx.xxxx              <!-- response -->
-        xxxx.xxxx              <!-- response -->
-      + xxxx.xxxx              <!-- response -->
+        0000.0000              <!-- response -->
+        0013.0000              <!-- response -->
+      + 0005.0000              <!-- response -->
       -----------
-        xxxx.xxxx              <!-- response -->
+        00018.5000             <!-- response -->
    ```
  
    * 45.67 + 0.8
    ```
-        xxxx.xxxx              <!-- response -->
-        xxxx.xxxx              <!-- response -->
-      + xxxx.xxxx              <!-- response -->
+        0001.0000             <!-- response -->
+        0045.6700             <!-- response -->
+      + 0000.6550              <!-- response -->
       -----------
-        xxxx.xxxx              <!-- response -->
+        0135.1550              <!-- response -->
    ```
  
    * 134.5 + 0.655
    ```
-        xxxx.xxxx              <!-- response -->
-        xxxx.xxxx              <!-- response -->
-      + xxxx.xxxx              <!-- response -->
+        0001.0000              <!-- response -->
+        0134.5000              <!-- response -->
+      + 0000.6550              <!-- response -->
       -----------
-        xxxx.xxxx              <!-- response -->
+        0135.1550              <!-- response -->
    ```
  
    * 566.76 + 4334.0
    ```
-        xxxx.xxxx              <!-- response -->
-        xxxx.xxxx              <!-- response -->
-      + xxxx.xxxx              <!-- response -->
+        0110.0000              <!-- response -->
+        0566.7600              <!-- response -->
+      + 4334.0000              <!-- response -->
       -----------
-        xxxx.xxxx              <!-- response -->
+        4900.7600              <!-- response -->
    ```
 
 #### Section 3: Ten's Complement[^1]
@@ -111,22 +111,22 @@ Complement: a thing that completes or brings to perfection
 In mathematics, two numbers are said to be complements if by adding them together you obtain a number that is a power of ten: 0, 10, 100, 100, etc. For example, the ten's complement of 25 with respect to 100 is 75 (25 + 75 = 100).
 
   1. Calculate the complement of the following numbers _with respect to_ 10:
-     * 3:                  <!-- response -->
-     * 5:                  <!-- response -->
-     * 6:                  <!-- response -->
-     * 9:                  <!-- response -->
+     * 3: 7                <!-- response -->
+     * 5: 5                 <!-- response -->
+     * 6: 4                 <!-- response -->
+     * 9: 1                 <!-- response -->
   
   1. Calculate the complement of the following numbers _with respect to_ 100:
-     * 33:                 <!-- response -->
-     * 65:                 <!-- response -->
-     * 82:                 <!-- response -->
-     * 3:                  <!-- response -->
+     * 33: 67                <!-- response -->
+     * 65: 35                <!-- response -->
+     * 82: 18                <!-- response -->
+     * 3:  97                <!-- response -->
   
   1. Calculate the complement of the following numbers:
-     * 23:                 <!-- response -->
-     * 345:                <!-- response -->
-     * 3453:               <!-- response -->
-     * 5638:               <!-- response -->
+     * 23: 77                <!-- response -->
+     * 345: 655               <!-- response -->
+     * 3453: 6547              <!-- response -->
+     * 5638: 4362              <!-- response -->
   
   When we are not given the sum of the two numbers, it is defined to be the   smallest power of 10 larger than both the complements.  For example, when   providing the complement of 654, we presume that this is _with respect to_ 1000.
 
@@ -136,22 +136,22 @@ In mathematics, two numbers are said to be complements if by adding them togethe
 The nine's complement of a decimal digit is the number that must be added to produce 9.  Whereas the nine's complement of a three digit number is that number that must be added to it to produce 999.
 
   1. Provide the 9's complement of the following numbers:
-     * 3:                  <!-- response -->
-     * 5:                  <!-- response -->
-     * 6:                  <!-- response -->
-     * 9:                  <!-- response -->
+     * 3: 6                 <!-- response -->
+     * 5: 4                 <!-- response -->
+     * 6: 3                 <!-- response -->
+     * 9: 0                 <!-- response -->
   
   1. Provide the 9's complement of the following numbers:
-     * 33:                 <!-- response -->
-     * 65:                 <!-- response -->
-     * 82:                 <!-- response -->
-     * 3:                  <!-- response -->
+     * 33: 66                <!-- response -->
+     * 65: 34                <!-- response -->
+     * 82: 17                <!-- response -->
+     * 3:  6                <!-- response -->
   
   1. Provide the 9's complement of the following numbers:
-     * 23:                 <!-- response -->
-     * 345:                <!-- response -->
-     * 3453:               <!-- response -->
-     * 5638:               <!-- response -->
+     * 23: 76                <!-- response -->
+     * 345: 654               <!-- response -->
+     * 3453: 6546              <!-- response -->
+     * 5638: 4361              <!-- response -->
   
 
 
@@ -192,37 +192,37 @@ Represent the following numbers using scientific notation using the pattern prov
 
 ### Section Three
 1. Did you read the overview of this assignment? 
-   *                   <!-- response -->
+   * Yes                   <!-- response -->
 
 1. Why was this exercise assigned to you by your Professor?
-   *                   <!-- response -->
+   * To review math operations and prepare us for binary numbers in future assignments.                   <!-- response -->
 
 1. What is a natural number?
-   *                   <!-- response -->
+   * any positive numbers that are not 0                  <!-- response -->
 
 1. What is a whole number? 
-   *                   <!-- response -->
+   * a number with no fraction                  <!-- response -->
 
 1. What is an integer?
-   *                   <!-- response -->
+   * any number positive or negative including 0                  <!-- response -->
 
 1. What is a real number? 
-   *                   <!-- response -->
+   * any integer                   <!-- response -->
 
 1. What is a complement?
-   *                   <!-- response -->
+   * two numbers that yields 10^n for some n                 <!-- response -->
 
 1. What is a carry?
-   *                   <!-- response -->
+   * a number that is moved from one column of numbers to another column                 <!-- response -->
 
 1. What is overflow?
-   *                   <!-- response -->
+   * when there is not enough space to do math problem                  <!-- response -->
 
 1. When using scientific notation, with a particular pattern, is there the potential for a loss information or precision in the number?
-   *                   <!-- response -->
+   * Yes because there some times is not enough room to hold all numbers.                  <!-- response -->
 
 1. What is an exception?
-   *                   <!-- response -->
+   * when something causes the normal riles to perform an operation is not enough.                  <!-- response -->
 
 
 
